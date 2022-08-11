@@ -25,7 +25,7 @@
             v-model="task.where"
             autofocus
             label="Where (onde será feito?)"
-            :items="items1"
+            :items="area"
           ></v-select>
           <v-select
             v-model="task.who"
